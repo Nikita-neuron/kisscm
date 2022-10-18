@@ -198,7 +198,6 @@ def create_graph(nodes):
 
 if __name__ == "__main__":
     project_path = os.getcwd()
-    print(project_path)
 
     commits, trees, blobs = get_git_objects(project_path)
     nodes = create_nodes(commits, trees, blobs)
