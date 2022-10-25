@@ -1,0 +1,7 @@
+(
+    (name "test")
+    (age 20)
+    (some
+        ("test1" "test2" "test3")
+    )
+)
